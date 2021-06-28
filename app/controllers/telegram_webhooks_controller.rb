@@ -1,6 +1,5 @@
 class TelegramWebhooksController < Telegram::Bot::UpdatesController
-  def start!(message)
-    puts message.inspect
+  def start!
     puts from
     puts chat
   end
