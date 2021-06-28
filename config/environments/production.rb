@@ -112,7 +112,7 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
   routes.default_url_options = {
-    host: 'yourdomain.com',
+    host: 'so-productive-bot.herokuapp.com',
     protocol: 'https'
   }
 end
