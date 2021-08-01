@@ -1,10 +1,4 @@
-advice = [
-  'проверь инстаграм',
-  'посмотри сериал',
-  'ещё пару тиктоков',
-  'посмотри ютуб',
-  'почитай твиттер'
-]
+advice = YAML.load_file('lib/data/messages.yml')['data']
 
 namespace :telegram do
   task send_advice: :environment do
