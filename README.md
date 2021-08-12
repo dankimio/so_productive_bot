@@ -1,24 +1,7 @@
-# README
+# Прокрастинация Bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](/bot.jpg)
 
-Things you may want to cover:
+Привет! Это бот, который будет всеми способами отвлекать тебя от работы.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[@so_productive_bot](https://t.me/so_productive_bot)
