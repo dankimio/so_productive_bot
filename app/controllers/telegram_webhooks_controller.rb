@@ -6,5 +6,10 @@ class TelegramWebhooksController < Telegram::Bot::UpdatesController
       chat_id: @chat.chat_id,
       text: 'Привет! Теперь я буду всеми способами отвлекать тебя от работы'
     )
+
+    Telegram.bot.send_message(
+      chat_id: @chat.chat_id,
+      text: ADVICE.sample
+    )
   end
 end
